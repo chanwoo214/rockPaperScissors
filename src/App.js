@@ -10,11 +10,20 @@ import Box from "./component/Box"
 
 function App() {
   return (
-    <div >
-      <Box/>
+    <div>
+      <div className='main'>
+        <Box title="You" />
+        <Box title="Computer" />
+      </div>
+
+      <div className="main">
+        <button>Paper</button>
+        <button>Rock</button>
+        <button>Scissors</button>
+      </div>
     </div>
   );
 }
 
 export default App;
- 
+
