@@ -1,6 +1,7 @@
 .box{
     border: 1px solid black;
     width: 400px;
+    margin: 5px;
 }
 
 .item-image{
@@ -10,4 +11,22 @@
 .main{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
+.main button {
+    margin: 5px;
+}
+
+.Win {
+    border: 10px solid green;
+    color: green;
+  }
+  .Lose {
+    border: 10px solid red;
+    color: red;
+  }
+  .Tie {
+    border: 10px solid black;
+    color: black;
+  }
