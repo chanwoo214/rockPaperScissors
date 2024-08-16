@@ -63,7 +63,7 @@ function App() {
         <Box title="You" item={userSelect} result={result} />
         <Box title="Computer" item={computerSelect} result={result} />
       </div>
-
+      
       <div className="main">
         <button onClick={() => play("paper")}>Paper</button>
         <button onClick={() => play("rock")}>Rock</button>
